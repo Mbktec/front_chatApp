@@ -6,12 +6,11 @@ import { Routes, Route} from 'react-router-dom';
 function App() {
   return <>
   <Routes>
-    <Route path="/" element={<Home/>}/>
+    <Route  path="/" element={<Home/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/register" element={<Register/>}/>
-    <Route path="/profil/:username" element={<Profile/>}/>
+    <Route  path="/profile/:username" element={<Profile/>}/>
   </Routes>
-   <Register/>
   </>
  
 }
